@@ -28,7 +28,7 @@
             width: 200vw;
             height: 200vh;
             z-index: -1;
-            background: radial-gradient(rgba(0,0,0,0), #2e3436, #4e9a06, #204a87, #5c3566, #2e3436);
+            background: radial-gradient(#2e3436, #4e9a06, #204a87, #5c3566, #2e3436, rgba(0,0,0,0));
             /*background-size: 400% 400%;
             animation: gradientBG 15s ease infinite; */
             animation: giraBG 15s ease infinite;
@@ -72,7 +72,7 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
 
-        /* Tasti Verticali */
+        /* Tasti Verticali *
         .links-vertical {
             width: 100%;
             max-width: 400px;
@@ -131,12 +131,12 @@
 </head>
 <body>
     <div class="bg-animated"></div>
-    <div class="container">
+    <div class="main-container">
         <img src="https://valentino.catalano.tech/docs/logo/foto.jpg" alt="Profilo" class="profile-img">  
         <h1>Valentino Catalano</h1>
 
         <!-- Pulsanti Principali -->
-        <div class="links-vertical">
+        <div class="links-vertical auth-container">
             <a href="https://valentino.catalano.tech" class="btn-link gnu-input">
                 <i class="fas fa-globe"></i> IL MIO SITO
             </a>
